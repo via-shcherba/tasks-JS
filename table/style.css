@@ -1,0 +1,23 @@
+table{
+  width: 50%;
+  margin: 50px auto;
+}
+caption{
+  text-align: center;
+  font-style: bold;
+  font-size: 24px;
+  letter-spacing: 3px;
+  background-color: orange;
+  color: darkred;
+  padding: 10px 0;
+}
+td{
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px 0;
+  color: darker;
+  font-weight: bold;
+}
+.hightlight{
+  background-color: yellow;
+}
