@@ -1,0 +1,16 @@
+#menu{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+}
+button{
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: red;
+  border-color: red;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
