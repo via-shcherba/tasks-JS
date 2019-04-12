@@ -1,0 +1,42 @@
+.block{
+  width: 80%;
+  margin: auto;
+}
+h1{
+  font-size: 30px;
+  border-bottom: 5px double #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+.main{
+  margin: 10px 20px;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 10px;
+}
+.main h3{
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.main h3:hover{
+  cursor: pointer;
+}
+p{
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.main h3:before{
+  content: "+";
+  color: gray;
+  padding: 0 7px;
+}
+.main h3.minus:before{
+  content: "-";
+}
+.main h3:hover:before{
+  color: orange;
+}
+.hide{
+  display: none;
+}
