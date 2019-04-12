@@ -1,0 +1,22 @@
+#nav{
+  position: absolute;
+  left: -110px;
+  bottom: 10px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #ddd;
+}
+#nav li{
+  margin: 10px;
+  background-color: gray;
+  text-align: center;
+}
+#nav li a{
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+#nav li a:hover{
+  color: orange;
+}
